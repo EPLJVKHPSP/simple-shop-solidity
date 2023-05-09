@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "addTwoNumbers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OwnerCheck.sol": "OwnerCheck"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OwnerCheck.sol": {
+			"keccak256": "0x26ebd4d8a1845f2a1495cfd13208712519761bcd7fd76bf33913d6f0bb248b37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9483a71aa666df068a45aa7379b6ab55d489591d29402367bf5008be8a9f0e90",
+				"dweb:/ipfs/QmV5v9PT9N52oSEkHhBkisAaJP1iJrDQ3XGCy9dctFFYsV"
+			]
+		}
+	},
+	"version": 1
+}
